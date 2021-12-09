@@ -5,15 +5,15 @@ body {
     background-attachment: fixed;
 }
 
-.formulario {
+.formulario {    
     background: rgba(0, 0, 0, .1);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
-.form-control {
+.form-control {    
     background: rgba(0, 0, 0, .3);
     border-style: none;
     transition: 0.5s ease-in;
@@ -22,7 +22,7 @@ body {
 }
 
 .form-control:focus {
-    background: none;
+    background: #222A3F;
     box-shadow: none;
     outline: none;
 }
@@ -30,6 +30,16 @@ body {
 .form-control::placeholder {
     color: white;
 }
+
+
+.form-group input{
+    color: aliceblue;
+}
+
+.form-group:hover input{
+    color: white;
+}
+
 
 .ingresar {
     background: #222A3F;
@@ -73,4 +83,3 @@ body {
     text-decoration-line: none;
     cursor: pointer;
 }
-
