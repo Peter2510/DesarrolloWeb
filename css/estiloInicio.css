@@ -1,0 +1,12 @@
+body {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.precio{
+    text-align: center;
+    height: 300px;
+    background-color: aqua;
+}
